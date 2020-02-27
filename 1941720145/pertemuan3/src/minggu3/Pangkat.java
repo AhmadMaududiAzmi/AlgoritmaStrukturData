@@ -1,6 +1,12 @@
 package minggu3;
 public class Pangkat {
     public int nilai, pangkat;
+    public Pangkat(){
+    }
+    public Pangkat(int nilai, int pangkat) {
+        this.nilai = nilai;
+        this.pangkat = pangkat;
+    }
     
     public int pangkatBF(int a, int n) {
         int hasil = 1;
