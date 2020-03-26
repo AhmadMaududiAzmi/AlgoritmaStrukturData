@@ -30,7 +30,7 @@ public class MergeSorting {
         }
     }
     
-    private void sort (int [] data, int left, int right) {
+    public void sort (int [] data, int left, int right) {
         if (left<right) {
             int middle = (left+right)/2;
             sort (data,left,middle);
